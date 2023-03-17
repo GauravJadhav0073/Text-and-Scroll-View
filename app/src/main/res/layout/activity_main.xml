@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:id="@+id/mamaimage"
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        app:srcCompat="@drawable/mama"
+        tools:ignore="DuplicateIds"
+        android:contentDescription="@string/todo" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="150dp">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        android:textSize="20sp"
+        android:text="The key intention of an interviewer while asking “tell me about yourself” is to know about the candidate in a brief manner and then follow up with questions related to the job application and role. The first impression is the last impression and once you nail your introduction in the interview, or answer customary HR interview questions before that, you have got some extra brownie points. This blog brings a comprehensive checklist of everything you must focus on in your introduction in an interview The moment you are escorted to the interview room, you start panicking and thinking about all the possible questions and answers you could frame in that short period of time. However, we often ignore the importance of the very first question about our introduction in the interview. Just sit back and note down the following pointers on how to ace self-introduction.
+
+"
+    />
+
+    </ScrollView>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        app:srcCompat="@drawable/mama"
+        android:contentDescription="@string/todo1" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center"
+        android:text="Click here" />
+
+
+</LinearLayout>
